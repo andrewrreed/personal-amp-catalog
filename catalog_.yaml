@@ -1,0 +1,37 @@
+name: Andrew Reeds Test Catalog
+
+entries:
+- title: Churn Modeling with XGBoost
+  label: churn
+  short_description: Build an XGBoost model to predict churn using customer telco data.
+  long_description: >-
+    This project demonstrates how to build a classifier model (Logistic
+    Regression, Xgboost) to predict the churn probability for a group of
+    customers from a telecoms company. In addition, the model can then be
+    interpreted using LIME. Both the classifier  and LIME models are then
+    deployed using CML's real-time model deployment capability. Finally, a basic
+    flask application is deployed that will let you interact with the real-time
+    model to see which factors in the data have the most influence on the churn
+    probability.
+  image_path: >-
+    https://github.infra.cloudera.com/raw/victordibia/templatecatalog/master/images/churn.jpg
+  tags:
+    - explainability
+    - xgboost
+  git_url: 'https://github.com/victordibia/cml_churn_demo_mlops'
+  is_prototype: true
+
+- title: Structural Time Series
+  label: structural-time-series
+  short_description: Applying Bayesian STS to California hourly electricity demand data.
+  long_description: >-
+    This project provides an example application of generalized additive models
+    (via the Prophet library) to California hourly electricity demand data. The
+    primary output of this repository is a small application exposing a
+    probablistic forecast and interface for asking a probabilistic question
+    against it.
+  image_path: >-
+    https://github.infra.cloudera.com/raw/victordibia/templatecatalog/master/images/sts.jpg
+  tags:
+    - time series
+  git_url: 'https://github.com/fastforwardlabs/structural-time-series'
