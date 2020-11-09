@@ -35,3 +35,4 @@ entries:
   tags:
     - time series
   git_url: 'https://github.com/fastforwardlabs/structural-time-series'
+  is_prototype: true
